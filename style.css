@@ -1,0 +1,59 @@
+body, html {
+  margin: 0px;
+  height:100%;
+  width: 100%
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  color: black;  
+}
+
+li{
+  display: inline-block;
+  margin: 0 20px 0 0;
+}
+
+header{
+  text-align: center;
+  background: aquamarine;
+  padding: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: white
+}
+
+body {
+  text-align: center;
+}
+
+.bcapic {
+  width: 50%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  display: block;
+}
+
+.bcapic:hover {
+  opacity: 50%;
+}
+
+footer {
+  background: aquamarine;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  display: block;
+}
